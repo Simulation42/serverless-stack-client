@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+ position: relative;
+ margin-left: 15%;
+ margin-top: 3%;
+ background-color: rgb(247, 247, 247);
+ width: 70%;
+ border: 1px solid rgb(233, 233, 233);
+ border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBrand {
+  font-family: arial;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  line-height: 70px;
+  font-weight: 800;
+  margin-left: 30px;
+  transition: .5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navBrand:hover {
+  color: rgb(202, 152, 152);
+  transition: .5s;
 }
 
-.App-link {
-  color: #61dafb;
+.signUp {
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  line-height: 70px;
+  float: right;
+  margin-right: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login {
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  line-height: 70px;
+  float: right;
+  margin-right: 30px;
 }
