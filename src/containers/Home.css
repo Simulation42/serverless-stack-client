@@ -1,0 +1,16 @@
+.Home .lander {
+    text-align: center;
+    position: relative;
+    padding-top: 15%;
+  }
+  
+  .Home .lander h1 {
+    font-family: arial;
+    font-weight: 600;
+    color: rgb(221, 165, 165);
+    font-size: 40px;
+  }
+  
+  .Home .lander p {
+    color: #999;
+  }
